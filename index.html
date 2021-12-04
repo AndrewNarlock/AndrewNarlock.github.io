@@ -1,161 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html> 
     <head>
         <meta charset="utf-8">
-        <title>Project: Blog</title>
+        <title>Project1</title>
         <style>
-            
-        body {
-            font-family: Arial, sans-serif;
-            background: rgb(74, 212, 229);
+        body{
+            background: rgb(235, 247, 255);
+            font-family: Helvetica, sans-serif;
         }
-        .links{
-            background-color: rgb(156, 243, 236);
-            border: 3px inset black;
+        .spacer{
+            width: 120%;
+            height: 1px;
+            background-color: rgb(204, 226, 239);
+            margin: 5px;
+            margin-left: -10px;
+        }
+        .navBar{
+            background: rgb(59, 161, 226);
+            color: white;
+            width: 110%;
+            margin-left: -15px;
+            margin-top: -10px;
+            height: 30px;
+            padding-top: 20px;
+            text-align:center;
+            border-bottom: 2px inset rgb(204, 226, 239);
+            border-left: 2px rgb(180, 220, 245);
+            margin-bottom: 80px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        .item1 {
+            text-align: left;
+            line-height: 1.4em;
+            font-size: 55px;
+            margin-left: 230px;
+            padding: 30px;
+            padding-left: 50px;
+            padding-bottom: 40px;
             border-radius: 15px;
+            background: rgb(59, 161, 226);
+            width: 350px;
+            color: white;
+        }
+        .item2{
+            text-align: left;
             font-size: 20px;
-            width: 250px;
-            height: 60px;
-            padding-top: 10px;
-        }
-        .links2{
-            background-color: rgb(156, 243, 236);
-            border: 3px inset black;
-            border-radius: 10px;
-            font-size: 25px;
-            width: 200px;
-            margin: 0 auto;
-            padding: 15px;
-            margin-top: 500px;
-            margin-bottom: 50px;
-        }
-        .dates {
-            font-style: italic;
-            font-size: 12px;
-            text-decoration: underline;
-        }
-        #headings{
-            background-color: rgb(156, 243, 236);
-            font-size: 65px;
-            text-decoration: underline overline;
-            width: 275px;
-            height: 110px;
-            margin: 0 auto;
-            padding-top: 40px;
-            padding-left: 25px;
-            border: 5px inset black;
-            border-radius: 15px;
-        }
-        .headings2{
-            background-color: rgb(156, 243, 236);
-            font-size: 25px;
-            text-decoration: underline;
-            width: 125px;
-            height: 110px;
-            height: 40px;
-            padding-top: 10px;
-            padding-left: 20px;
-            border: 3px inset black;
-            border-radius: 15px;
-        }
-        #headings3dirt1{
-            background-color: rgb(156, 243, 236);
-            font-size: 30px;
-            text-decoration: underline;
-            width: 95px;
-            height: 50px;
-            padding-top: 10px;
-            padding-left: 20px;
-            border: 3px inset black;
-            border-radius: 15px;
-        }
-        #headings3dirt2{
-            background-color: rgb(156, 243, 236);
-            font-size: 30px;
-            text-decoration: underline;
-            width: 95px;
-            height: 50px;
-            padding-top: 10px;
-            padding-left: 20px;
-            border: 3px inset black;
-            border-radius: 15px;
-        }
-        .headings4 {
-            background-color: rgb(156, 243, 236);
-            font-size: 20px;
-            width: 95px;
-            height: 25px;
-            margin: 0 auto;
-            font-weight: bold;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            padding-top: 5px;
-            padding-left: 15px;
-            border: 3px inset black;
+            margin-bottom: 150px;
+            margin-right: 230px;
+            padding: 25px;
+            background: white;
+            width: relative;
             border-radius: 15px;
         }
         .content{
-            background-color: rgb(210, 236, 234);
-            margin: 0 auto;
-            width: 95%;
-            padding: 15px;
-            margin-bottom: 100px;
-            border: 2px inset black;
+            text-align: center;
+            line-height: 1.7em;
+            color: white;
+            background-color: rgb(59, 161, 226);
+            margin-left: 230px;
+            margin-right: 230px;
+            margin-top: 80px;
+            margin-bottom: 80px;
+            padding: 50px;
+            width: relative;
             border-radius: 15px;
         }
-        .results {
-            font-family: monospace;
-            font-size: 14px;
-            background: white;
-            width: 500px;
-            margin: 0 auto;
-            padding: 20px;
-            padding-left: 50px;
-            margin-bottom: 100px;
-            border: 2px inset black;
-        }
-        .breaker{
+        .footer {
+            background-color: rgb(59, 161, 226);
             text-align: center;
-            margin-top: 450px;
-            margin-bottom: 75px;
-        }
-          
+            color: white;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            padding: 12px;
+            width: 100%;
+
+        }   
         </style>
-        
     </head>
+    
     <body>
-        
-        <div id="headings">Dirt Blog</div>
-        <h3 class="headings2">Content:</h3>
-        
-        <ul class="links">
-            <li><a href="#headings3dirt1">Dirt Observation 1</a></li>
-            <li><a href="#headings3dirt2">Dirt Observation 2</a></li>
-        </ul>
-        
-        <h3 id="headings3dirt1">Dirt 1</h3>
-        <h6 class="dates">Posted: 1/24/2021</h6>
-        
-        <div class="content">I gathered the dirt required for my dastardly experiments. I have seperated the dirt into cup sized increments and have stored unused samples in a heavily fortified safe with proper temperature controls. My first sample, "dirt 1" is currently under intense observation with the intent on characterizing distinctive, apparant, physical and emotional strengths and weaknesses, which may be useful for further evil experiments.
+        <div class= "navBar"> <strong> HOME | PROJECT | ABOUT | CONTACT </strong></div>
+
+        <div class="spacer"></div>
+        <div class= "grid-container">
+            <div class="item1"><strong>Welcome to my first solo project!</strong></div>
+            <div class="item2">I want to make a desktop page <br> where I can create nodes to embed different webpages, <br> 
+            such as Twitch streams and YouTube videos, <br>on the same page. I also want to be able to close and 
+            resize each node.</div>
         </div>
-        
-        <div class="headings4">Findings</div>
-        
-        <ul class="results">
-            <li>The dirt is dry.</li>
-            <li>The dirt is smelly.</li>
-            <li>The dirt is unresponsive to verbal and emotional abuse, yet crumples into particles under minimal physical stress.</li>
-            <li>Dirt stained my favorite white mad scientist coat.</li>
-            <li>Dirt sentenced to be a test subject for my SmashBlaster6000 doomsday device for its destruction of my coat.</li>
-        </ul>
-        
-        <div class="breaker"> ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
-        <h3 id="headings3dirt2">Dirt 2</h3>
-        <h6 class="dates">Posted: 1/24/2021</h6>
-        
-        <div class="content">The second cup of dirt which has been selected for my most heinous and disgusting rituals is called "Dirt 2". I will be observing the sample for any sign of conscious decision making or guiding philosophies/principles. Dirt 2 was placed in a simulated situation and asked to make a decision based on its guiding principles. Dirt 2 was placed in front of a lever. In front of the lever was a train track which split into two seperate directions. On one path, Dirt 2's family, the Dirtpiles, were taped to the railroad in line with a speeding train. On the other path was a pile of grass seeds that would surely provide Dirt 2 with the thick grassy main that he has always dreamed of. The train moved forward as Dirt 2 stood frozen in fear. Would he pick his lovgin dirt wife and his very own legacy of dirt children or would he be enticed by the sweet desires of finally being a dirt pile worthy of the greenest and tallest grass around. The train blasted through the dirtpiles as Dirt 2 watched without flinching, in fact, he hadn't budged the whole time. It appears the dirt is motivated purely by self indulgence and does not value anything other than its own gain, a truly evil and vile guiding philosphy. After the test, Dirt 2 was sent for further tests on my SmashBLaster6000. 
-        </div>
-        
-        <div class="links2" ><a href="#headings">Top of page ^^^</a></div>
+        <div class="spacer"></div>
+        <div class="content"><strong>I started this project on Nov 3, 2021. </strong><br> I plan on updatin working and updating and
+        will post updates here on the main page.</div>
+        <div class="spacer"></div>
+        <div class="footer">created by: Andrew Narlock</div>
     </body>
-</html>
+</html> 
