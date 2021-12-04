@@ -1,0 +1,14 @@
+html,
+.navBar{
+	background: rgb(59, 161, 226);
+	color: white;
+	width: 110%;
+	margin-left: -15px;
+	margin-top: -10px;
+	height: 30px;
+	padding-top: 20px;
+	text-align:center;
+	border-bottom: 2px inset rgb(204, 226, 239);
+	border-left: 2px rgb(180, 220, 245);
+	margin-bottom: 80px;
+}
