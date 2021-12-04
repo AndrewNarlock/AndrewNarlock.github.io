@@ -12,3 +12,65 @@ html,
 	border-left: 2px rgb(180, 220, 245);
 	margin-bottom: 80px;
 }
+body{
+    background: rgb(235, 247, 255);
+    font-family: Helvetica, sans-serif;
+}
+.footer {
+    background-color: rgb(59, 161, 226);
+    text-align: center;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 100%;
+} 
+.spacer{
+    width: 120%;
+    height: 1px;
+    background-color: rgb(204, 226, 239);
+    margin: 5px;
+    margin-left: -10px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.item1 {
+    text-align: left;
+    line-height: 1.4em;
+    font-size: 55px;
+    margin-left: 230px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+    background: rgb(59, 161, 226);
+    width: 350px;
+    color: white;
+}
+.item2{
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 150px;
+    margin-right: 230px;
+    padding: 25px;
+    background: white;
+    width: relative;
+    border-radius: 15px;
+}
+.content{
+    text-align: center;
+    line-height: 1.7em;
+    color: white;
+    background-color: rgb(59, 161, 226);
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 50px;
+    width: relative;
+    border-radius: 15px;
+}
