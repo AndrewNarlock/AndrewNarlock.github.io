@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset= "utf-8">
+        <title>Prject Stylesheet</title>
+        <link rel= "stylesheet" type= "tect/css" href="">
+        <style>
+        .navBar{
+            background: rgb(59, 161, 226);
+            color: white;
+            width: 110%;
+            margin-left: -15px;
+            margin-top: -10px;
+            height: 30px;
+            padding-top: 20px;
+            text-align:center;
+            border-bottom: 2px inset rgb(204, 226, 239);
+            border-left: 2px rgb(180, 220, 245);
+            margin-bottom: 80px;
+        }
+        .footer {
+            background-color: rgb(59, 161, 226);
+            text-align: center;
+            color: white;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            padding: 12px;
+            width: 100%;
+        } 
+        </style>
+    </head>
+    <body>
+        
+    </body>
+</html>
