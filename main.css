@@ -27,6 +27,16 @@ li a{
 li a:hover {
   	background-color: rgb(16, 113, 178);
 }
+.board{
+	background-color: rgb(180, 230, 255);
+	border-radius: 5px;
+	position: absolute;
+	top: 65px;
+	right: 15px;
+	bottom: 45px;
+	left: 15px;
+
+}
 .footer {
 	background-color: rgb(59, 161, 226);
 	text-align: center;
