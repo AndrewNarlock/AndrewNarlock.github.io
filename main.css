@@ -1,21 +1,36 @@
-html,
-.navBar{
-	position: static;
-	text-align: center;
-	width: 100%;
-	background: rgb(59, 161, 226);
-	color: white;
-	font-size: 20px;
-	padding-top: 5px;
-	padding-bottom: 20px;
-}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 body{
 	background: rgb(235, 247, 255);
 	font-family: Helvetica, sans-serif;
 }
+ul{
+	font-family: Helvetica, sans-serif;
+	list-style-type: none;
+	border-radius: 5px;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: rgb(59, 161, 226);
+}
+li a{
+	float: right;
+	margin-right: 50px;
+  	display: block;
+  	color: white;
+	font-weight: bold;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+li a:hover {
+  	background-color: rgb(16, 113, 178);
+}
 .footer {
 	background-color: rgb(59, 161, 226);
 	text-align: center;
+	font-family: Helvetica, sans-serif;
 	color: white;
 	position: fixed;
 	left: 0;
@@ -24,7 +39,7 @@ body{
 	width: 100%;
 } 
 .spacer{
-	width: 120%;
+	width: 100.6%;
 	height: 1px;
 	background-color: rgb(204, 226, 239);
 	margin: 5px;
@@ -35,6 +50,7 @@ body{
 	grid-template-columns: auto auto;
 }
 .item1 {
+	font-family: Helvetica, sans-serif;
 	text-align: left;
 	line-height: 1.4em;
 	font-size: 55px;
@@ -48,6 +64,7 @@ body{
 	color: white;
 }
 .item2{
+	font-family: Helvetica, sans-serif;
 	text-align: left;
 	color: black;
 	font-size: 20px;
@@ -59,6 +76,7 @@ body{
 	border-radius: 15px;
 }
 .content{
+	font-family: Helvetica, sans-serif;
 	text-align: center;
 	line-height: 1.7em;
 	color: white;
@@ -71,3 +89,8 @@ body{
 	width: relative;
 	border-radius: 15px;
 }
+</style>
+</head>
+<body>
+</body>
+</html>
