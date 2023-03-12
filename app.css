@@ -1,0 +1,55 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    line-height: 150%;
+    box-sizing: border-box;
+}
+
+.embed-container {
+	width:	fit-content;
+	height: fit-content;
+	padding: 25px;
+	background-color: rgb(26, 93, 144);
+	display: flex;
+	align-items: center;
+	margin: 50px 0px 0px 50px;
+}
+
+.embed-input {
+	font-size: 16px;
+	letter-spacing: 1.4px;
+	margin: 0px 20px 0px 0px;
+}
+
+.block-button {
+	color: rgb(26, 93, 144);
+	font-size: 26px;
+	letter-spacing: 1.4px;
+	border: none;
+	padding: 5px 10px 5px 10px;
+}
+
+.block-button:hover {
+	color: white;
+	background-color: rgb(26, 93, 144);
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.block {
+	display: flex;
+	padding: 10px;
+	width: fit-content;
+	background-color: rgb(65, 156, 172);
+	position: absolute;
+}
+
+
+.delete-button {
+	margin: 5px 5px 5px 15px;
+	border: none;
+}
