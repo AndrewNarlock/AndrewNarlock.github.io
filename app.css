@@ -9,6 +9,13 @@ body {
 	box-sizing: border-box;
 }
 
+.message {
+	color: white;
+	font-size: 12px;
+	letter-spacing: 1.4px;
+	margin-left: 20px;
+}
+
 .embed-container {
 	width: fit-content;
 	height: fit-content;
